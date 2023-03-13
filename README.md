@@ -1,3 +1,3 @@
 # concurrent-programming
 This is source code for self-study from Java Brains Concurrency Programming video.
-case-test#5
+case-test#6
