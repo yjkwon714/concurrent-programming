@@ -2,6 +2,9 @@ version: 0.2
 phases:
   install:
     commands:
+      - echo $CODEBUILD_SOURCE_REPO_URL
+      - echo $CODEBUILD_SOURCE_VERSION
+      - echo $CODEBUILD_SRC_DIR
       - echo $CODEBUILD_WEBHOOK_BASE_REF
       - echo $CODEBUILD_WEBHOOK_EVENT
       - echo $CODEBUILD_WEBHOOK_HEAD_REF
